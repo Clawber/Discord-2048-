@@ -1,3 +1,1 @@
-string = "hello"
-string += "helloooooo"
-print(string)
+print("Hello World")
