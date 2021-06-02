@@ -41,5 +41,3 @@ async def on_message(message):
 
 client.run(TOKEN)
 
-
-hll wrld >IA think thi
