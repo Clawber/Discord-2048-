@@ -20,7 +20,10 @@ async def on_message(message):
 		return
 	if len(message.content)!=1:
 		return
-		
+	
+	
+	
+	"""Main Program Loop"""		
 	inp = message.content.lower()
 	global board
 	if inp in ['w','a','s','d']:
@@ -30,8 +33,6 @@ async def on_message(message):
 		if board == 0:
 			await message.channel.send("Game Over")
 			board = clear_board()
-		
-	
 	elif inp=='r':
 		board = clear_board()
 		await message.channel.send(disc_print_board(board))

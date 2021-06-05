@@ -124,21 +124,3 @@ def clear_board():
 	return [[0 for j in range(4)] for i in range(4)]
 
 
-"""
-inp = ""
-while inp!="q":
-	inp = input()
-	if inp in ['w','a','s','d']:
-		board = move(board,inp)
-
-		if board==0:
-			print("Game Over")
-			break
-	
-		print_board(board)
-	
-	elif inp == 'r':
-		board = clear_board()
-		print("clear")
-		print_board(board)
-"""
